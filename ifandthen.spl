@@ -1,0 +1,10 @@
+# ifandthen.spl
+PROGRAM
+    VAR
+        x : INTEGER;
+    BEGIN
+        x := 5;
+        IF x = 5 AND x < 10 THEN
+            WRITELN("x is 5 and less than 10");
+        ENDIF;
+    END.

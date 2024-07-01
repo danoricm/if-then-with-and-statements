@@ -1,0 +1,6 @@
+/* ifandthen.pli */
+DCL x FIXED DECIMAL(5) INIT(5);
+
+IF x = 5 & x < 10 THEN
+    PUT LIST('x is 5 and less than 10');
+END IF;

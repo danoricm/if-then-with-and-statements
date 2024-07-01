@@ -1,0 +1,6 @@
+// ifandthen.falcon
+x = 5
+
+if x == 5 and x < 10
+    > "x is 5 and less than 10"
+end
